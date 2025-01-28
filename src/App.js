@@ -166,7 +166,7 @@ export default function BookstoreTesterApp() {
                       </div>
                       {book.reviews.length > 0 && (
                         <div className="mt-2">
-                          <strong>Reviews:</strong>
+                          <strong>Reviews ({book.reviews.length}):</strong>
                           <ul className="mt-1 list-disc list-inside">
                             {book.reviews.map((review, i) => (
                               <li key={i}>
